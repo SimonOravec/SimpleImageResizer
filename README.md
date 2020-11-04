@@ -3,5 +3,6 @@
 <hr>
 <h3>Known issues:</h3>
 <ul>
+<li>Preview not scaled correctly</li>
 <li>Animated GIFs resizing not possible (yet)</li>
 </ul>
