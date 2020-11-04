@@ -14,3 +14,10 @@
 <li>Preview not scaled correctly</li>
 <li>Animated GIFs resizing not possible (yet)</li>
 </ul>
+
+<h3>Planned updates:</h3>
+<ul>
+<li>Add "Resize Image" option to Windows context menu</li>
+<li>Redesign the app</li>
+<li>Create command line version of the app</li>
+</ul>
