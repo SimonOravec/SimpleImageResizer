@@ -1,4 +1,4 @@
-<a href="https://github.com/SimonOravec/SimpleImageResizer/releases/download/0.1/imgresizer.exe"><h3>Download</h3></a>
+<a href="https://github.com/SimonOravec/SimpleImageResizer/releases/download/0.1/imgresizer.exe"><h2>Download latest version</h2></a>
 
 <h3>System requirements</h3>
 <ul>
