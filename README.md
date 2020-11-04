@@ -1,7 +1,7 @@
 <h3>System requirements</h3>
 <ul>
 <li>OS Windows (tested only on Windows 10)</li>
-<li>Microsoft .NET Framework 4.5</li>
+<li>Microsoft .NET Framework 4.5 (<a href="https://www.microsoft.com/en-us/download/details.aspx?id=30653" target="_blank">Download</a>)</li>
 </ul>
 
 <h3>Preview:</h3>
