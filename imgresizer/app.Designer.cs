@@ -63,8 +63,9 @@
             // 
             // img_preview
             // 
-            this.img_preview.Enabled = false;
             this.img_preview.Location = new System.Drawing.Point(12, 268);
+            this.img_preview.MaximumSize = new System.Drawing.Size(256, 144);
+            this.img_preview.MinimumSize = new System.Drawing.Size(1, 1);
             this.img_preview.Name = "img_preview";
             this.img_preview.Size = new System.Drawing.Size(256, 144);
             this.img_preview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -85,14 +86,14 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(15, 65);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 17);
+            this.label2.Size = new System.Drawing.Size(48, 17);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Height:";
+            this.label2.Text = "Width:";
             // 
             // input_height
             // 
             this.input_height.Enabled = false;
-            this.input_height.Location = new System.Drawing.Point(65, 62);
+            this.input_height.Location = new System.Drawing.Point(69, 90);
             this.input_height.Name = "input_height";
             this.input_height.Size = new System.Drawing.Size(73, 22);
             this.input_height.TabIndex = 4;
@@ -118,7 +119,7 @@
             // input_width
             // 
             this.input_width.Enabled = false;
-            this.input_width.Location = new System.Drawing.Point(65, 90);
+            this.input_width.Location = new System.Drawing.Point(69, 62);
             this.input_width.Name = "input_width";
             this.input_width.Size = new System.Drawing.Size(73, 22);
             this.input_width.TabIndex = 7;
@@ -128,9 +129,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(15, 93);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(48, 17);
+            this.label5.Size = new System.Drawing.Size(53, 17);
             this.label5.TabIndex = 6;
-            this.label5.Text = "Width:";
+            this.label5.Text = "Height:";
             // 
             // btn_resize
             // 
@@ -147,7 +148,7 @@
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(420, 398);
+            this.label6.Location = new System.Drawing.Point(423, 402);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(147, 17);
             this.label6.TabIndex = 10;
@@ -163,7 +164,7 @@
             "JPG",
             "BMP",
             "GIF"});
-            this.format_selector.Location = new System.Drawing.Point(120, 119);
+            this.format_selector.Location = new System.Drawing.Point(114, 119);
             this.format_selector.Name = "format_selector";
             this.format_selector.Size = new System.Drawing.Size(73, 24);
             this.format_selector.TabIndex = 11;
@@ -181,7 +182,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(579, 424);
+            this.ClientSize = new System.Drawing.Size(582, 428);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.format_selector);
             this.Controls.Add(this.label6);
@@ -195,6 +196,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.img_preview);
             this.Controls.Add(this.btn_selectfile);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "app";
             this.Text = "EZ ImageResizer";
             ((System.ComponentModel.ISupportInitialize)(this.img_preview)).EndInit();
