@@ -3,7 +3,7 @@
 <h3>System requirements</h3>
 <ul>
 <li>Windows 7 or newer (may work on Vista & XP but not tested)</li>
-<li>Microsoft .NET Framework 4 [a href="https://www.microsoft.com/en-us/download/details.aspx?id=17851" target="_blank">Download</a>] (you probably already have this installed)</li>
+<li>Microsoft .NET Framework 4 [<a href="https://www.microsoft.com/en-us/download/details.aspx?id=17851" target="_blank">Download</a>] (you probably already have this installed)</li>
 </ul>
 
 <h3>Preview:</h3>
